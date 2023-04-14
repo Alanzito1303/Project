@@ -1,0 +1,189 @@
+body {
+    font-family: 'DynaPuff', cursive;
+    background-color: #FAD4C0;
+    color: #64B6AC;
+    margin: 0px;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 10px;
+    height: 120px;
+    padding:10px;
+    background-color: #FEE9E1;
+}
+
+.header h1 {
+    font-size: 80px;
+    position: relative;
+    right: 3%;
+    padding: 5px;
+    margin: 2px;
+}
+
+.header li {
+    position: relative;
+    right: 8%;
+    display:inline;
+    padding: 0px 10px;
+    font-size: 25px;
+    width: auto;
+}
+
+.header a {
+    text-decoration: none;
+    color: #AFC5B6;
+}
+
+.header a:hover {
+    color: #B09E99;
+}
+
+.header img {
+    position: relative;
+    left: 3%;
+    width: 100px;
+    padding: 5px;
+    margin: 2px;
+}
+/*Aqui acaba el header*/
+
+.contenido {
+    position: relative;
+    justify-content: center;
+    left: 24.4%;
+    margin: 10px;
+    width: 900px;
+    background-color: #B09E99;
+}
+
+.contenido h2 {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: #C0FDFB;
+}
+
+.contenido p{
+    margin:5px 10px;
+    color: #C0FDFB;
+    text-align: justify;
+}
+
+.contenido img {
+    width: 300px;
+    float: right;
+    margin:5px 10px;
+}
+
+/*Aqui acaba el contenido*/
+
+.anuncios {
+    position: absolute;
+    top: 10.1%;
+    left: 1%;
+    width: 284px;
+    height: 1500px;
+    margin: 0px;
+}
+
+.anuncios #img1 {
+    position: relative;
+    right: 3%;
+    bottom: 1.9%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.anuncios #img2 {
+    position: relative;
+    right: 3%;
+    bottom: 3.6%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.anuncios #img3 {
+    position: relative;
+    right: 3%;
+    bottom: 5.39%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.anuncios #img4 {
+    position: relative;
+    right: 3%;
+    bottom: 7.1%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.anuncios #img5 {
+    position: relative;
+    right: 3%;
+    bottom: 8.76%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.anuncios #img6 {
+    position: relative;
+    right: 3%;
+    bottom: 10.4%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.anuncios #img7 {
+    position: relative;
+    right: 3%;
+    bottom: 12.1%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+#ep1 {
+    position: relative;
+    right: 3%;
+    bottom: 13.73%;
+    width: 280px;
+    margin: 10px;
+    padding: 0%;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(55, 50, 50);
+}
+
+
+/*Aca termina los anuncios*/
+
+.footer {
+    position: absolute;
+    width: 100%;
+    padding: 2em;
+    
+    justify-content: center;
+    display: block;
+    text-align: center;
+    background-color:rgb(55, 50, 50);
+}
+
+.footer svg {
+    padding: 5px 10px 15px;
+}
